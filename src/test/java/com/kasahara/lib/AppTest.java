@@ -31,8 +31,13 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testApp() {
+        App app = new App();
+        assertNotNull(app);
+    }
+
+    public void testLib(){
+        Lib lib = new Lib("hoge", "hoge");
+        assertNotNull(lib);
     }
 }

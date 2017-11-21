@@ -6,8 +6,7 @@ package com.kasahara.lib;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+        System.out.println( new Lib("Hanako", "I am flower..."));
     }
 }
